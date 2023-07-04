@@ -1,0 +1,214 @@
+body{  
+
+margin: 0%;
+
+
+}
+
+nav > a {
+color:white;
+padding:120px;
+border-radius:0px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav > a:hover{
+
+  
+   color: black;
+
+}
+
+.imag {
+
+    height: 25px;
+
+}
+
+
+
+
+.menu {
+   
+background: rgb(123, 123, 221); 
+
+width: 1400px;
+}
+
+
+.menu a{
+
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+font{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+/*Slide*/
+
+.slider{
+margin: 0 auto; 
+width: 1400px;
+height: 400px;
+overflow: hidden;
+
+}
+
+.slides{
+width: 1000%;
+height: 400px;
+display: flex;
+
+}
+
+.slides input{
+display: none;
+
+}
+
+.slide img{
+  width: 1400px;
+height: 400px;
+
+}
+
+
+.manual-navigation{
+  position:absolute;
+  width: 1400px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.manual-btn{
+
+   border:2px solid #fff; 
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+
+margin-right: 40px;
+
+}
+
+.manual-btn:hover{
+
+background-color: #fff;
+
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+    transition: .4s;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -10%;
+    transition: .8s;
+}
+
+
+#radio3:checked ~ .first{
+    margin-left: -20%;
+    transition: .8s;
+}
+
+#radio4:checked ~ .first{
+    
+    margin-left: -30%;
+    transition: .8s;
+}
+
+.navigation-auto div {
+
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+
+    position: absolute;
+    width: 1400px;
+    margin-top: 360px;
+    display: flex;
+    justify-content:  center;
+}
+
+.navigation-auto div:not(:last-child){
+margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+
+    background-color: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+#pformas { color:red;
+
+
+
+}
+
+
+
+
+
+.footer {
+position: center;
+text-align: center;
+
+
+}
+
+
+.footer img{
+width: 40%;
+
+
+}
